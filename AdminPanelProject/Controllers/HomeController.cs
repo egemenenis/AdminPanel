@@ -14,15 +14,12 @@ namespace AdminPanelProject.Controllers
             _context = context;
         }
 
-        // Index - Admin'deki ürünlerin Home/index sayfasýnda gösterilmesi
         public async Task<IActionResult> Index()
         {
-            // Veritabanýndaki tüm ürünleri çekiyoruz
             var products = await _context.Products.ToListAsync();
             return View(products);
         }
 
-        // Error - Hata sayfasý
         public IActionResult Error()
         {
             return View();

@@ -1,5 +1,5 @@
 ﻿using AdminPanelProject.Models;
-using Microsoft.AspNetCore.Identity;
+using AdminPanelProject.Services.AccountService;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -7,13 +7,11 @@ namespace AdminPanelProject.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IAccountRepository _accountRepository;
 
-        public AccountController(SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager)
+        public AccountController(IAccountRepository accountRepository)
         {
-            _signInManager = signInManager;
-            _userManager = userManager;
+            _accountRepository = accountRepository;
         }
 
         // GET: /Account/Login
@@ -30,11 +28,11 @@ namespace AdminPanelProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _userManager.FindByNameAsync(model.Username);
+                var user = await _accountRepository.FindUserByUsernameAsync(model.Username);
                 if (user != null)
                 {
-                    var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
-                    if (result.Succeeded)
+                    var signInSucceeded = await _accountRepository.SignInAsync(user, model.Password);
+                    if (signInSucceeded)
                     {
                         TempData["Message"] = "Başarılı giriş!";
                         TempData["RedirectUrl"] = Url.Action("Index", "Admin"); // Yönlendirme URL'si
@@ -55,13 +53,12 @@ namespace AdminPanelProject.Controllers
             return View(model);
         }
 
-
         // POST: /Account/Logout
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
-            await _signInManager.SignOutAsync();
+            await _accountRepository.SignOutAsync();
             TempData["Message"] = "Oturum kapatıldı!";
             TempData["RedirectUrl"] = Url.Action("Index", "Home"); // Logout sonrası yönlendirme
             return RedirectToAction("LoginResult");

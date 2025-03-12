@@ -1,22 +1,28 @@
-﻿using AdminPanelProject.Data;
-using AdminPanelProject.Models;
+﻿using AdminPanelProject.Models;
+using AdminPanelProject.Repositories;
+using AdminPanelProject.Services.ProductService;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace AdminPanelProject.Controllers
 {
     [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IProductRepository _productRepository;
+        private readonly IUserRepository _userRepository;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public AdminController(ApplicationDbContext context)
+        public AdminController(IProductRepository productRepository, IUserRepository userRepository, UserManager<ApplicationUser> userManager)
         {
-            _context = context;
+            _productRepository = productRepository;
+            _userRepository = userRepository;
+            _userManager = userManager;
         }
-
 
         public async Task<IActionResult> Index()
         {
@@ -26,7 +32,8 @@ namespace AdminPanelProject.Controllers
             ViewData["UserId"] = userId;
             ViewData["Username"] = username;
 
-            return View(await _context.Products.ToListAsync());
+            var products = await _productRepository.GetAllProductsAsync();
+            return View(products);
         }
 
         public IActionResult Create()
@@ -40,8 +47,7 @@ namespace AdminPanelProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(product);
-                await _context.SaveChangesAsync();
+                await _productRepository.AddProductAsync(product);
                 return RedirectToAction(nameof(Index));
             }
             return View(product);
@@ -54,7 +60,7 @@ namespace AdminPanelProject.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products.FindAsync(id);
+            var product = await _productRepository.GetProductByIdAsync(id.Value);
             if (product == null)
             {
                 return NotFound();
@@ -75,12 +81,11 @@ namespace AdminPanelProject.Controllers
             {
                 try
                 {
-                    _context.Update(product);
-                    await _context.SaveChangesAsync();
+                    await _productRepository.UpdateProductAsync(product);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!_context.Products.Any(e => e.Id == product.Id))
+                    if (await _productRepository.GetProductByIdAsync(product.Id) == null)
                     {
                         return NotFound();
                     }
@@ -101,8 +106,7 @@ namespace AdminPanelProject.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var product = await _productRepository.GetProductByIdAsync(id.Value);
             if (product == null)
             {
                 return NotFound();
@@ -115,10 +119,83 @@ namespace AdminPanelProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-            _context.Products.Remove(product);
-            await _context.SaveChangesAsync();
+            await _productRepository.DeleteProductAsync(id);
             return RedirectToAction(nameof(Index));
         }
+
+        public async Task<IActionResult> Profiles()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await _userManager.FindByIdAsync(userId);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var model = new UpdateProfileViewModel
+            {
+                Username = user.UserName,
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber
+            };
+
+            return View(model); // Profil formu için model gönderiyoruz
+        }
+
+        // Profil Güncelleme (POST)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateProfile(UpdateProfileViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var user = await _userManager.FindByIdAsync(userId);
+
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                // Kullanıcı adı ve e-posta güncellenmesi
+                user.UserName = model.Username;
+                user.Email = model.Email;
+                user.PhoneNumber = model.PhoneNumber;
+
+                // Şifre güncelleme işlemi
+                if (!string.IsNullOrEmpty(model.CurrentPassword) && !string.IsNullOrEmpty(model.NewPassword) && model.NewPassword == model.ConfirmPassword)
+                {
+                    var passwordChangeResult = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+                    if (!passwordChangeResult.Succeeded)
+                    {
+                        foreach (var error in passwordChangeResult.Errors)
+                        {
+                            ModelState.AddModelError(string.Empty, error.Description);
+                        }
+                        return View(model);
+                    }
+                }
+
+                // Veritabanı güncelleme işlemi
+                var updateResult = await _userManager.UpdateAsync(user);
+
+                if (updateResult.Succeeded)
+                {
+                    TempData["Message"] = "Profil güncellendi!";
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    foreach (var error in updateResult.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                }
+            }
+
+            return View(model); // Hata varsa, modelle tekrar formu göster
+        }
+
     }
 }

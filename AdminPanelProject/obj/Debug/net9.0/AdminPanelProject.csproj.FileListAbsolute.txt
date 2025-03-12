@@ -231,7 +231,8 @@ C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\AdminPanelProject.pdb
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\AdminPanelProject.genruntimeconfig.cache
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\ref\AdminPanelProject.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\compressed\y29ldab0vc-2ti5zvhx27.gz
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\compressed\k12jl31kq3-81ayntfzyd.gz
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\compressed\8hzmqitorm-tjxzmn0vym.gz
+C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\compressed\y29ldab0vc-3o2xvv7njb.gz

@@ -24,7 +24,7 @@
     .product-card img {
         width: 100%; /* Genişlik sabit 100% (kartın genişliğine uyacak şekilde) */
         height: 210px; /* Sabit yükseklik */
-        object-fit:fill; /* Görselin boyutları sabit ve düzgün şekilde kesilsin */
+        object-fit:contain; /* Görselin boyutları sabit ve düzgün şekilde kesilsin */
         display: block;
         background-color: white; /* Küçük görsellerde arka planı beyaz yapar */
         border-top-left-radius: 10px; /* Üst sol köşe yuvarlama */

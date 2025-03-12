@@ -20,6 +20,10 @@
     <div class="admin-actions">
         <a href="@Url.Action("Create", "Admin")" class="btn btn-success">Yeni Ürün Ekle</a>
 
+        <a href="@Url.Action("Profiles", "Admin")" class="btn btn-info">
+            Profil Sayfası
+        </a>
+
         <form method="post" asp-action="Logout" asp-controller="Account" class="d-inline">
             <button type="submit" class="btn btn-danger">Çıkış Yap</button>
         </form>
