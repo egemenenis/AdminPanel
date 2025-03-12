@@ -1,0 +1,20 @@
+﻿@model AdminPanelProject.Models.Product
+@{
+    ViewData["Title"] = "Ürün Sil";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Silmek istediğinize emin misiniz?</h3>
+
+<div>
+    <h4>@Model.Name</h4>
+    <p>Açıklama: @Model.Description</p>
+    <p>Fiyat: @Model.Price</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Evet, sil</button>
+    <a href="@Url.Action("Index", "Admin")" class="btn btn-secondary">İptal</a>
+</form>
