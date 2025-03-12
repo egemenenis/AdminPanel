@@ -4,41 +4,62 @@
     ViewData["Title"] = "Admin Paneli";
 }
 
-<h2>@ViewData["Title"]</h2>
+<head>
+    <link rel="stylesheet" href="~/css/AdminIndex.css" />
+</head>
 
-<p>
-    <a href="@Url.Action("Create", "Admin")" class="btn btn-success">Yeni Ürün Ekle</a>
-</p>
+<div class="admin-panel-container">
+    <div class="admin-header">
+        <h2>@ViewData["Title"]</h2>
+        <div class="admin-user-info">
+            <strong>Giriş Yapan Kullanıcı: </strong>@ViewData["Username"]
+            <br /> <strong>ID: </strong> @ViewData["UserId"]
+        </div>
+    </div>
 
-<p>
-    <!-- Logout Button -->
-    <form method="post" asp-action="Logout" asp-controller="Account" class="d-inline">
-        <button type="submit" class="btn btn-danger">Çıkış Yap</button>
-    </form>
-</p>
+    <div class="admin-actions">
+        <a href="@Url.Action("Create", "Admin")" class="btn btn-success">Yeni Ürün Ekle</a>
 
+        <form method="post" asp-action="Logout" asp-controller="Account" class="d-inline">
+            <button type="submit" class="btn btn-danger">Çıkış Yap</button>
+        </form>
+    </div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Adı</th>
-            <th>Açıklama</th>
-            <th>Fiyat</th>
-            <th>İşlemler</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Name</td>
-                <td>@item.Description</td>
-                <td>@item.Price</td>
-                <td>
-                    <a href="@Url.Action("Edit", "Admin", new { id = item.Id })" class="btn btn-warning">Düzenle</a>
-                    <a href="@Url.Action("Delete", "Admin", new { id = item.Id })" class="btn btn-danger">Sil</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Adı</th>
+                    <th>Açıklama</th>
+                    <th>Fiyat</th>
+                    <th>Görsel</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>@item.Price</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImagePath))
+                            {
+                                <img src="@item.ImagePath" alt="Ürün Görseli" class="product-image" />
+                            }
+                            else
+                            {
+                                <span>Görsel Yok</span>
+                            }
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Admin", new { id = item.Id })" class="btn btn-warning">Düzenle</a>
+                            <a href="@Url.Action("Delete", "Admin", new { id = item.Id })" class="btn btn-danger">Sil</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -5,12 +5,36 @@
       "PackagePath": "staticwebassets\\AdminPanelProject.pbc06nh7sc.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
+      "PackagePath": "staticwebassets\\css\\AdminIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
+      "PackagePath": "staticwebassets\\css\\HomeIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\LoginResult.css",
+      "PackagePath": "staticwebassets\\css\\LoginResult.css"
+    },
+    {
       "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\IPhone_15.jpeg",
+      "PackagePath": "staticwebassets\\images\\IPhone_15.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\iphone_16.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone_16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\null_image.jpg",
+      "PackagePath": "staticwebassets\\images\\null_image.jpg"
     },
     {
       "Id": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\js\\site.js",

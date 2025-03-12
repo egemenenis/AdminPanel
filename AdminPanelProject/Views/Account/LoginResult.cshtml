@@ -1,0 +1,33 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/LoginResult.css" />
+</head>
+
+@{
+    var message = TempData["Message"]?.ToString();
+    var redirectUrl = TempData["RedirectUrl"]?.ToString();
+}
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div id="popup-overlay" class="popup-overlay">
+        <div class="popup-container">
+            <div class="popup-header">
+                <h4>@message</h4>
+            </div>
+            <div class="popup-footer">
+                <button id="btnOk" onclick="window.location.href='@redirectUrl';" class="btn-confirm">Tamam</button>
+            </div>
+        </div>
+    </div>
+}
+
+@* <script>
+        // Eğer sayfada pop-up varsa, 5 saniye sonra kapanması için script ekleyebiliriz
+    window.onload = function () {
+        if (document.getElementById("popup-overlay")) {
+            setTimeout(function () {
+                document.getElementById("popup-overlay").style.display = "none";
+            }, 5000); // 5 saniye sonra kapanacak
+        }
+    }
+</script> *@

@@ -3,6 +3,7 @@ using AdminPanelProject.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace AdminPanelProject.Controllers
 {
@@ -16,7 +17,18 @@ namespace AdminPanelProject.Controllers
             _context = context;
         }
 
-        // Create
+
+        public async Task<IActionResult> Index()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var username = User.Identity.Name;
+
+            ViewData["UserId"] = userId;
+            ViewData["Username"] = username;
+
+            return View(await _context.Products.ToListAsync());
+        }
+
         public IActionResult Create()
         {
             return View();
@@ -35,7 +47,6 @@ namespace AdminPanelProject.Controllers
             return View(product);
         }
 
-        // Update
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -83,7 +94,6 @@ namespace AdminPanelProject.Controllers
             return View(product);
         }
 
-        // Delete
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -109,12 +119,6 @@ namespace AdminPanelProject.Controllers
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
-
-        // Index
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Products.ToListAsync());
         }
     }
 }

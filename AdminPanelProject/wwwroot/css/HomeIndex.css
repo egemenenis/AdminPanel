@@ -1,0 +1,84 @@
+﻿/* Ürün kartlarının genel stilini sabitleme */
+.product-card {
+    width: 18rem; /* Kart genişliği */
+    height: 500px; /* Sabit yükseklik */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Beyaz arka plan */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover efekti için animasyon */
+    position: relative; /* Fiyatın konumlandırılabilmesi için kartı relative yapıyoruz */
+}
+
+    /* Kart hover efekti */
+    .product-card:hover {
+        transform: translateY(-5px); /* Kartın yukarıya kayması */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hoverda gölgeyi artırma */
+    }
+
+    /* Kartın üst kısmındaki görselin boyutlandırılması */
+    .product-card img {
+        width: 100%; /* Genişlik sabit 100% (kartın genişliğine uyacak şekilde) */
+        height: 210px; /* Sabit yükseklik */
+        object-fit:fill; /* Görselin boyutları sabit ve düzgün şekilde kesilsin */
+        display: block;
+        background-color: white; /* Küçük görsellerde arka planı beyaz yapar */
+        border-top-left-radius: 10px; /* Üst sol köşe yuvarlama */
+        border-top-right-radius: 10px; /* Üst sağ köşe yuvarlama */
+    }
+
+/* Kartın alt kısmındaki içerik düzeni */
+.product-card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Sabit başlık, açıklama ve fiyat konumlarını yerleştirir */
+    height: calc(100% - 210px); /* Yüksekliği toplam kart yüksekliğinden görsel yüksekliğini çıkararak ayarlıyoruz */
+    position: relative; /* İçeriklerin üst üste binmemesi için relative konumlandırma */
+}
+
+    /* Başlık (Ürün ismi) */
+    .product-card-body h5 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #333; /* Koyu yazı rengi */
+    }
+
+    /* Fiyat */
+    .product-card-body .price {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #e74c3c; /* Fiyat rengi kırmızı */
+        position: absolute; /* Fiyatı sabit bir konumda tutmak için absolute kullanıyoruz */
+        bottom: 0; /* Fiyatın en alt kısımda yer alması için */
+        left: 0; /* Sol kenara sabitliyoruz */
+        margin-bottom: 10px; /* Fiyatın kartın kenarından biraz uzak olmasını sağlıyoruz */
+    }
+
+/* Açıklama alanı için sabit alan */
+.product-description {
+    height: 100%; /* Açıklama alanını esnek bırakıyoruz */
+    overflow-y: auto; /* Kaydırılabilir yapar */
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #666; /* Açıklama rengi gri */
+}
+
+/* Üst başlık ve içerik arasındaki boşluk */
+.product-card-body p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Her satıra 4 kutu sığdırmak için */
+    gap: 20px; /* Kutu arasındaki boşluk */
+    margin-top: 20px;
+}

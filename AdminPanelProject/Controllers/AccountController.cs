@@ -36,17 +36,25 @@ namespace AdminPanelProject.Controllers
                     var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("Index", "Admin");
+                        TempData["Message"] = "Başarılı giriş!";
+                        TempData["RedirectUrl"] = Url.Action("Index", "Admin"); // Yönlendirme URL'si
+                        return RedirectToAction("LoginResult");
                     }
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    // Hatalı giriş durumunda TempData'ya mesaj ekleyin
+                    TempData["Message"] = "Hatalı giriş, lütfen tekrar deneyin!";
+                    TempData["RedirectUrl"] = Url.Action("Login", "Account"); // Giriş sayfasına yönlendirme
+                    return RedirectToAction("LoginResult");
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "User not found.");
+                    TempData["Message"] = "Kullanıcı bulunamadı!";
+                    TempData["RedirectUrl"] = Url.Action("Login", "Account"); // Giriş sayfasına yönlendirme
+                    return RedirectToAction("LoginResult");
                 }
             }
             return View(model);
         }
+
 
         // POST: /Account/Logout
         [HttpPost]
@@ -54,7 +62,15 @@ namespace AdminPanelProject.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");  // Kullanıcıyı anasayfaya yönlendiriyoruz
+            TempData["Message"] = "Oturum kapatıldı!";
+            TempData["RedirectUrl"] = Url.Action("Index", "Home"); // Logout sonrası yönlendirme
+            return RedirectToAction("LoginResult");
+        }
+
+        // Login sonrası sonuç mesajlarını gösterme
+        public IActionResult LoginResult()
+        {
+            return View();
         }
     }
 }

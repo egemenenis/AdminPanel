@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ll7OpiSHTsnDoujCRoeikAqKVA4q3sxY/uefwlXmn5I=",
+  "Hash": "sSvwj92A658AXWymoIIVtz5z0YyjzdaV3CrSJIkFSXg=",
   "Source": "AdminPanelProject",
   "BasePath": "_content/AdminPanelProject",
   "Mode": "Default",
@@ -309,6 +309,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\8hzmqitorm-tjxzmn0vym.gz",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "css/AdminIndex#[.{fingerprint=tjxzmn0vym}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7q9kjktfbm",
+      "Integrity": "P8HntACLYg04uc5xgy90UEwbDlMugMbTlBa8SyH54KY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\AdminIndex.css"
     },
     {
       "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\94dfmtotv2-mlv21k5csn.gz",
@@ -815,6 +836,27 @@
       "OriginalItemSpec": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\k12jl31kq3-81ayntfzyd.gz",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "css/LoginResult#[.{fingerprint=81ayntfzyd}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\LoginResult.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "08ij4uslcm",
+      "Integrity": "AJ/Y1fLCoykXX93T22aNzOugCIlW4ZkyKBlvHNBKC/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\LoginResult.css"
+    },
+    {
       "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\k3l36a58w9-agp80tu62r.gz",
       "SourceId": "AdminPanelProject",
       "SourceType": "Discovered",
@@ -1256,6 +1298,27 @@
       "OriginalItemSpec": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\y29ldab0vc-2ti5zvhx27.gz",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "css/HomeIndex#[.{fingerprint=2ti5zvhx27}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0804v51fwy",
+      "Integrity": "IF1fcC02dGkRZntwKFj7Rigx3vsP38H6KbR5Iowr9so=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\HomeIndex.css"
+    },
+    {
       "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\z0gjt8bc63-l2av4jpuoj.gz",
       "SourceId": "AdminPanelProject",
       "SourceType": "Discovered",
@@ -1340,6 +1403,69 @@
       "OriginalItemSpec": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AdminPanelProject.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "css/AdminIndex#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tjxzmn0vym",
+      "Integrity": "meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AdminIndex.css"
+    },
+    {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "css/HomeIndex#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ti5zvhx27",
+      "Integrity": "iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\HomeIndex.css"
+    },
+    {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\LoginResult.css",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "css/LoginResult#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "81ayntfzyd",
+      "Integrity": "TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginResult.css"
+    },
+    {
       "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\site.css",
       "SourceId": "AdminPanelProject",
       "SourceType": "Discovered",
@@ -1380,6 +1506,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\IPhone_15.jpeg",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "images/IPhone_15#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pa48uon0fn",
+      "Integrity": "wXXrBkB52xIA3f2cSmWt3h9x1fgPNyYpluPKT+rF15c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\IPhone_15.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\iphone_16.jpg",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "images/iphone_16#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0awnealp2q",
+      "Integrity": "KMkslbjdVN8VBNH0wFHcAFoTT36906SUq+LyRU0PzT0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iphone_16.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\null_image.jpg",
+      "SourceId": "AdminPanelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\",
+      "BasePath": "_content/AdminPanelProject",
+      "RelativePath": "images/null_image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2c5c109cug",
+      "Integrity": "/ihtJtWWnAXzVLdQDXO8Tyeqq2G6Mf8Hap0oB4VpzVk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\null_image.jpg"
     },
     {
       "Identity": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\js\\site.js",
@@ -3198,6 +3387,900 @@
       ]
     },
     {
+      "Route": "css/AdminIndex.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\8hzmqitorm-tjxzmn0vym.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001184834123"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "843"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P8HntACLYg04uc5xgy90UEwbDlMugMbTlBa8SyH54KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM="
+        }
+      ]
+    },
+    {
+      "Route": "css/AdminIndex.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM="
+        }
+      ]
+    },
+    {
+      "Route": "css/AdminIndex.css.gz",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\8hzmqitorm-tjxzmn0vym.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P8HntACLYg04uc5xgy90UEwbDlMugMbTlBa8SyH54KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P8HntACLYg04uc5xgy90UEwbDlMugMbTlBa8SyH54KY="
+        }
+      ]
+    },
+    {
+      "Route": "css/AdminIndex.tjxzmn0vym.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\8hzmqitorm-tjxzmn0vym.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001184834123"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "843"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P8HntACLYg04uc5xgy90UEwbDlMugMbTlBa8SyH54KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tjxzmn0vym"
+        },
+        {
+          "Name": "label",
+          "Value": "css/AdminIndex.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM="
+        }
+      ]
+    },
+    {
+      "Route": "css/AdminIndex.tjxzmn0vym.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tjxzmn0vym"
+        },
+        {
+          "Name": "label",
+          "Value": "css/AdminIndex.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-meal/eOrmG8QwhTZ20j6mMOu5GA1XxGiMkYenUf5ktM="
+        }
+      ]
+    },
+    {
+      "Route": "css/AdminIndex.tjxzmn0vym.css.gz",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\8hzmqitorm-tjxzmn0vym.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P8HntACLYg04uc5xgy90UEwbDlMugMbTlBa8SyH54KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tjxzmn0vym"
+        },
+        {
+          "Name": "label",
+          "Value": "css/AdminIndex.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P8HntACLYg04uc5xgy90UEwbDlMugMbTlBa8SyH54KY="
+        }
+      ]
+    },
+    {
+      "Route": "css/HomeIndex.2ti5zvhx27.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\y29ldab0vc-2ti5zvhx27.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000791765637"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1262"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IF1fcC02dGkRZntwKFj7Rigx3vsP38H6KbR5Iowr9so=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 07:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ti5zvhx27"
+        },
+        {
+          "Name": "label",
+          "Value": "css/HomeIndex.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/HomeIndex.2ti5zvhx27.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3179"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 07:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ti5zvhx27"
+        },
+        {
+          "Name": "label",
+          "Value": "css/HomeIndex.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/HomeIndex.2ti5zvhx27.css.gz",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\y29ldab0vc-2ti5zvhx27.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IF1fcC02dGkRZntwKFj7Rigx3vsP38H6KbR5Iowr9so=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 07:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ti5zvhx27"
+        },
+        {
+          "Name": "label",
+          "Value": "css/HomeIndex.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IF1fcC02dGkRZntwKFj7Rigx3vsP38H6KbR5Iowr9so="
+        }
+      ]
+    },
+    {
+      "Route": "css/HomeIndex.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\y29ldab0vc-2ti5zvhx27.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000791765637"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1262"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IF1fcC02dGkRZntwKFj7Rigx3vsP38H6KbR5Iowr9so=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 07:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/HomeIndex.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3179"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 07:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iuJM+ROY/4ymzSVCW7vaD5vP+GzGtheuxYMhvkSWWpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/HomeIndex.css.gz",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\y29ldab0vc-2ti5zvhx27.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IF1fcC02dGkRZntwKFj7Rigx3vsP38H6KbR5Iowr9so=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 07:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IF1fcC02dGkRZntwKFj7Rigx3vsP38H6KbR5Iowr9so="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginResult.81ayntfzyd.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\k12jl31kq3-81ayntfzyd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001712328767"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJ/Y1fLCoykXX93T22aNzOugCIlW4ZkyKBlvHNBKC/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:19:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "81ayntfzyd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LoginResult.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginResult.81ayntfzyd.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\LoginResult.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:19:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "81ayntfzyd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LoginResult.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginResult.81ayntfzyd.css.gz",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\k12jl31kq3-81ayntfzyd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJ/Y1fLCoykXX93T22aNzOugCIlW4ZkyKBlvHNBKC/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:19:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "81ayntfzyd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LoginResult.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AJ/Y1fLCoykXX93T22aNzOugCIlW4ZkyKBlvHNBKC/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginResult.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\k12jl31kq3-81ayntfzyd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001712328767"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJ/Y1fLCoykXX93T22aNzOugCIlW4ZkyKBlvHNBKC/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:19:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginResult.css",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\LoginResult.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:19:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCI1HogsQlZlCjCiSHQZJ3OjFwy1x/Pgvlw/REUM7nM="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginResult.css.gz",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\k12jl31kq3-81ayntfzyd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJ/Y1fLCoykXX93T22aNzOugCIlW4ZkyKBlvHNBKC/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 08:19:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AJ/Y1fLCoykXX93T22aNzOugCIlW4ZkyKBlvHNBKC/0="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\obj\\Debug\\net9.0\\compressed\\swq3sv1beh-c2tiyv64ts.gz",
       "Selectors": [
@@ -3790,6 +4873,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "images/IPhone_15.jpeg",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\IPhone_15.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2303425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wXXrBkB52xIA3f2cSmWt3h9x1fgPNyYpluPKT+rF15c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 06:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wXXrBkB52xIA3f2cSmWt3h9x1fgPNyYpluPKT+rF15c="
+        }
+      ]
+    },
+    {
+      "Route": "images/IPhone_15.pa48uon0fn.jpeg",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\IPhone_15.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2303425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wXXrBkB52xIA3f2cSmWt3h9x1fgPNyYpluPKT+rF15c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 06:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pa48uon0fn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/IPhone_15.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wXXrBkB52xIA3f2cSmWt3h9x1fgPNyYpluPKT+rF15c="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone_16.0awnealp2q.jpg",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\iphone_16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KMkslbjdVN8VBNH0wFHcAFoTT36906SUq+LyRU0PzT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 06:23:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0awnealp2q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/iphone_16.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KMkslbjdVN8VBNH0wFHcAFoTT36906SUq+LyRU0PzT0="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone_16.jpg",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\iphone_16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KMkslbjdVN8VBNH0wFHcAFoTT36906SUq+LyRU0PzT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 06:23:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KMkslbjdVN8VBNH0wFHcAFoTT36906SUq+LyRU0PzT0="
+        }
+      ]
+    },
+    {
+      "Route": "images/null_image.2c5c109cug.jpg",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\null_image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16813"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ihtJtWWnAXzVLdQDXO8Tyeqq2G6Mf8Hap0oB4VpzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 06:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2c5c109cug"
+        },
+        {
+          "Name": "label",
+          "Value": "images/null_image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ihtJtWWnAXzVLdQDXO8Tyeqq2G6Mf8Hap0oB4VpzVk="
+        }
+      ]
+    },
+    {
+      "Route": "images/null_image.jpg",
+      "AssetFile": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\images\\null_image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16813"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ihtJtWWnAXzVLdQDXO8Tyeqq2G6Mf8Hap0oB4VpzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 06:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ihtJtWWnAXzVLdQDXO8Tyeqq2G6Mf8Hap0oB4VpzVk="
         }
       ]
     },

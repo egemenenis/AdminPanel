@@ -4,26 +4,28 @@
     ViewData["Title"] = "Anasayfa";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/HomeIndex.css" asp-append-version="true" />
+</head>
+
 <h2>@ViewData["Title"]</h2>
 
 <h3>Ürünler</h3>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Adı</th>
-            <th>Açıklama</th>
-            <th>Fiyat</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Name</td>
-                <td>@item.Description</td>
-                <td>@item.Price</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="product-card">
+                <img src="@item.ImagePath" class="card-img-top" alt="Ürün Görseli">
+                <div class="product-card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <div class="product-description">
+                        <p class="card-text">@item.Description</p>
+                    </div>
+                    <p class="card-text"><strong>Fiyat:</strong> @item.Price TL</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

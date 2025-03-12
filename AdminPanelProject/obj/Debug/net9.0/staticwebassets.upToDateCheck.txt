@@ -11,6 +11,7 @@ C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bo
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\css\AdminIndex.css
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
@@ -34,6 +35,7 @@ C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\jq
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\css\LoginResult.css
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\favicon.ico
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
@@ -55,10 +57,17 @@ C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bo
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\css\HomeIndex.css
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\css\AdminIndex.css
+wwwroot\css\HomeIndex.css
+wwwroot\css\LoginResult.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\IPhone_15.jpeg
+wwwroot\images\iphone_16.jpg
+wwwroot\images\null_image.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
