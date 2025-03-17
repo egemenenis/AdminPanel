@@ -1,6 +1,7 @@
 ﻿using AdminPanelProject.Models;
-using AdminPanelProject.Repositories;
-using AdminPanelProject.Services.ProductService;
+using AdminPanelProject.Services;
+using AdminPanelProject.Services.Repository.ProductService;
+using AdminPanelProject.Services.Repository.UserService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -16,13 +17,23 @@ namespace AdminPanelProject.Controllers
         private readonly IProductRepository _productRepository;
         private readonly IUserRepository _userRepository;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserClaimsService _userClaimsService;
+        private readonly RoleClaimsService _roleClaimsService;
 
-        public AdminController(IProductRepository productRepository, IUserRepository userRepository, UserManager<ApplicationUser> userManager)
+        public AdminController(IProductRepository productRepository, IUserRepository userRepository, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager,
+               UserClaimsService userClaimsService, RoleClaimsService roleClaimsService)
         {
             _productRepository = productRepository;
             _userRepository = userRepository;
             _userManager = userManager;
+            _roleManager = roleManager;
+            _signInManager = signInManager;
+            _userClaimsService = userClaimsService;
+            _roleClaimsService = roleClaimsService;
         }
+
 
         public async Task<IActionResult> Index()
         {
@@ -41,18 +52,21 @@ namespace AdminPanelProject.Controllers
             return View();
         }
 
+        [ServiceFilter(typeof(AuthorizationFilter))]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Product product)
         {
             if (ModelState.IsValid)
             {
+
                 await _productRepository.AddProductAsync(product);
                 return RedirectToAction(nameof(Index));
             }
             return View(product);
         }
 
+        [ServiceFilter(typeof(AuthorizationFilter))]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -65,9 +79,12 @@ namespace AdminPanelProject.Controllers
             {
                 return NotFound();
             }
+
             return View(product);
         }
 
+
+        [ServiceFilter(typeof(AuthorizationFilter))]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Product product)
@@ -99,6 +116,7 @@ namespace AdminPanelProject.Controllers
             return View(product);
         }
 
+        [ServiceFilter(typeof(AuthorizationFilter))]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -112,37 +130,30 @@ namespace AdminPanelProject.Controllers
                 return NotFound();
             }
 
+            if (!await _userClaimsService.IsAdminClaim(User.FindFirstValue(ClaimTypes.NameIdentifier)))
+            {
+                return Unauthorized("Bu işlemi gerçekleştirmeye yetkiniz yok.");
+            }
+
             return View(product);
         }
 
+        [ServiceFilter(typeof(AuthorizationFilter))]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (!await _userClaimsService.IsAdminClaim(User.FindFirstValue(ClaimTypes.NameIdentifier)))
+            {
+                return Unauthorized("Bu işlemi gerçekleştirmeye yetkiniz yok.");
+            }
+
             await _productRepository.DeleteProductAsync(id);
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Profiles()
-        {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var user = await _userManager.FindByIdAsync(userId);
 
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            var model = new UpdateProfileViewModel
-            {
-                Username = user.UserName,
-                Email = user.Email,
-                PhoneNumber = user.PhoneNumber
-            };
-
-            return View(model); // Profil formu için model gönderiyoruz
-        }
-
+        [ServiceFilter(typeof(AuthorizationFilter))]
         // Profil Güncelleme (POST)
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -196,6 +207,5 @@ namespace AdminPanelProject.Controllers
 
             return View(model); // Hata varsa, modelle tekrar formu göster
         }
-
     }
 }

@@ -1,5 +1,6 @@
 ﻿using AdminPanelProject.Models;
-using AdminPanelProject.Services.AccountService;
+using AdminPanelProject.Services.Repository.AccountService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -34,9 +35,30 @@ namespace AdminPanelProject.Controllers
                     var signInSucceeded = await _accountRepository.SignInAsync(user, model.Password);
                     if (signInSucceeded)
                     {
-                        TempData["Message"] = "Başarılı giriş!";
-                        TempData["RedirectUrl"] = Url.Action("Index", "Admin"); // Yönlendirme URL'si
-                        return RedirectToAction("LoginResult");
+                        // Kullanıcının rolünü kontrol et
+                        var roles = await _accountRepository.GetRolesForUserAsync(user);
+
+                        // Admin rolünde mi diye kontrol et
+                        if (roles.Contains("Admin"))
+                        {
+                            TempData["Message"] = "Başarılı giriş!";
+                            TempData["RedirectUrl"] = Url.Action("Index", "Admin"); // Admin sayfasına yönlendirme
+                            return RedirectToAction("LoginResult");
+                        }
+                        // User rolünde mi diye kontrol et
+                        else if (roles.Contains("User"))
+                        {
+                            TempData["Message"] = "Başarılı giriş!";
+                            TempData["RedirectUrl"] = Url.Action("Index", "User"); // User sayfasına yönlendirme
+                            return RedirectToAction("LoginResult");
+                        }
+                        else
+                        {
+                            // Diğer roller için bir işlem yapılabilir
+                            TempData["Message"] = "Başarılı giriş!";
+                            TempData["RedirectUrl"] = Url.Action("Index", "Home"); // Varsayılan sayfa
+                            return RedirectToAction("LoginResult");
+                        }
                     }
                     // Hatalı giriş durumunda TempData'ya mesaj ekleyin
                     TempData["Message"] = "Hatalı giriş, lütfen tekrar deneyin!";
@@ -53,6 +75,7 @@ namespace AdminPanelProject.Controllers
             return View(model);
         }
 
+
         // POST: /Account/Logout
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -66,6 +89,14 @@ namespace AdminPanelProject.Controllers
 
         // Login sonrası sonuç mesajlarını gösterme
         public IActionResult LoginResult()
+        {
+            return View();
+        }
+
+
+        // Erişim engellendiği durumda buraya yönlendirilir.
+        [AllowAnonymous]  // Bu sayfa herkese açık olmalı
+        public IActionResult AccessDenied()
         {
             return View();
         }

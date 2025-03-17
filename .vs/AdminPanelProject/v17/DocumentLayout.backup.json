@@ -3,148 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\admin\\profiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\admin\\profiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\claimsservice\\userclaimsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\claimsservice\\userclaimsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\admin\\updateprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\admin\\updateprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\models\\updateprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\models\\updateprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\claimsservice\\roleclaimsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\claimsservice\\roleclaimsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\userservice\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\userservice\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\userservice\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\userservice\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\accountservice\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\accountservice\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\productservice\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\productservice\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\productservice\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\productservice\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\accountservice\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\accountservice\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\wwwroot\\css\\homeindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\wwwroot\\css\\homeindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\wwwroot\\css\\adminindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\wwwroot\\css\\adminindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\account\\loginresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\account\\loginresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\wwwroot\\css\\loginresult.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\wwwroot\\css\\loginresult.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\repository\\accountservice\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\repository\\accountservice\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\repository\\accountservice\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\repository\\accountservice\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\authorizationservice\\authorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\authorizationservice\\authorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\repository\\productservice\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\repository\\productservice\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\services\\repository\\productservice\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\services\\repository\\productservice\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|c:\\users\\egemen.ertas\\desktop\\adminpanelproject\\adminpanelproject\\adminpanelproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2EB282DE-BC13-48D6-BE72-AB8C3594163E}|AdminPanelProject\\AdminPanelProject.csproj|solutionrelative:adminpanelproject\\adminpanelproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,102 +86,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\UpdateProfile.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Admin\\UpdateProfile.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\UpdateProfile.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Admin\\UpdateProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "AdminPanelProject\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T12:19:22.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\UpdateProfileViewModel.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Models\\UpdateProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\UpdateProfileViewModel.cs",
-              "RelativeToolTip": "AdminPanelProject\\Models\\UpdateProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:09:23.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\UserService\\UserRepository.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\UserService\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\UserService\\UserRepository.cs",
-              "RelativeToolTip": "AdminPanelProject\\Services\\UserService\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:02:57.595Z",
+              "WhenOpened": "2025-03-17T11:26:05.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\UserService\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\UserService\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\UserService\\IUserRepository.cs",
-              "RelativeToolTip": "AdminPanelProject\\Services\\UserService\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:02:46.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Profiles.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Profiles.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Admin\\Profiles.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Profiles.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Admin\\Profiles.cshtml",
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "AdminPanelProject\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T11:07:03.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AdminPanelProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T12:01:48.08Z",
+              "WhenOpened": "2025-03-17T11:03:49.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\ProfileViewModel.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Models\\ProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\ProfileViewModel.cs",
-              "RelativeToolTip": "AdminPanelProject\\Models\\ProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:00:31.165Z",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "AdminPanelProject\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T11:03:38.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\AccountService\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\AccountService\\AccountRepository.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\AccountService\\AccountRepository.cs",
-              "RelativeToolTip": "AdminPanelProject\\Services\\AccountService\\AccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AdminPanelProject\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:53:32.573Z",
+              "WhenOpened": "2025-03-17T11:03:12.593Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AdminPanelProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T10:59:13.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AdminPanelProject\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:48:42.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -259,339 +191,144 @@
               "RelativeDocumentMoniker": "AdminPanelProject\\Program.cs",
               "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Program.cs",
               "RelativeToolTip": "AdminPanelProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:40:29.959Z",
+              "WhenOpened": "2025-03-17T08:44:03.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "AdminPanelProject\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RoleClaimsService.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\ClaimsService\\RoleClaimsService.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\ClaimsService\\RoleClaimsService.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\ClaimsService\\RoleClaimsService.cs",
+              "RelativeToolTip": "AdminPanelProject\\Services\\ClaimsService\\RoleClaimsService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCsAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:41:07.115Z",
+              "WhenOpened": "2025-03-17T08:34:18.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "UserClaimsService.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\ClaimsService\\UserClaimsService.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\ClaimsService\\UserClaimsService.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\ClaimsService\\UserClaimsService.cs",
+              "RelativeToolTip": "AdminPanelProject\\Services\\ClaimsService\\UserClaimsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:34:49.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "AdminPanelProject\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\AdminController.cs",
               "RelativeToolTip": "AdminPanelProject\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAIwMAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:39:49.692Z",
+              "WhenOpened": "2025-03-17T08:34:43.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AdminPanelProject\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AdminPanelProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:27:44.992Z",
+              "WhenOpened": "2025-03-17T11:02:37.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\ProductService\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\ProductService\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\ProductService\\ProductRepository.cs",
-              "RelativeToolTip": "AdminPanelProject\\Services\\ProductService\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\Repository\\AccountService\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\Repository\\AccountService\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\Repository\\AccountService\\IAccountRepository.cs",
+              "RelativeToolTip": "AdminPanelProject\\Services\\Repository\\AccountService\\IAccountRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:55:18.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T14:24:30.801Z",
+              "WhenOpened": "2025-03-17T08:34:17.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\ProductService\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\ProductService\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\ProductService\\IProductRepository.cs",
-              "RelativeToolTip": "AdminPanelProject\\Services\\ProductService\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\Repository\\AccountService\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\Repository\\AccountService\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\Repository\\AccountService\\AccountRepository.cs",
+              "RelativeToolTip": "AdminPanelProject\\Services\\Repository\\AccountService\\AccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:55:06.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\AccountService\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\AccountService\\IAccountRepository.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\AccountService\\IAccountRepository.cs",
-              "RelativeToolTip": "AdminPanelProject\\Services\\AccountService\\IAccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:53:16.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "AdminPanelProject\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:39:25.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "AdminPanelProject\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:23:22.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\Product.cs",
-              "RelativeToolTip": "AdminPanelProject\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:39:37.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "AdminPanelProject\\Models\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:43:59.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T14:27:58.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T13:44:35.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AdminIndex.css",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
-              "RelativeDocumentMoniker": "AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
-              "RelativeToolTip": "AdminPanelProject\\wwwroot\\css\\AdminIndex.css",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-12T08:11:41.116Z",
+              "WhenOpened": "2025-03-17T10:56:42.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "HomeIndex.css",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
-              "RelativeDocumentMoniker": "AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
-              "RelativeToolTip": "AdminPanelProject\\wwwroot\\css\\HomeIndex.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-12T07:23:07.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\appsettings.json",
-              "RelativeDocumentMoniker": "AdminPanelProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\appsettings.json",
-              "RelativeToolTip": "AdminPanelProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-12T10:40:52.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LoginResult.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Account\\LoginResult.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Account\\LoginResult.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Account\\LoginResult.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Account\\LoginResult.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T08:05:40.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T14:30:01.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Shared\\_Layout.cshtml.css",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\Repository\\ProductService\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\Repository\\ProductService\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\Repository\\ProductService\\ProductRepository.cs",
+              "RelativeToolTip": "AdminPanelProject\\Services\\Repository\\ProductService\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-12T06:41:43.021Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:47:03.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoginResult.css",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\LoginResult.css",
-              "RelativeDocumentMoniker": "AdminPanelProject\\wwwroot\\css\\LoginResult.css",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\wwwroot\\css\\LoginResult.css",
-              "RelativeToolTip": "AdminPanelProject\\wwwroot\\css\\LoginResult.css",
-              "ViewState": "AgIAABcAAAAAAAAAAIBJwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-12T08:09:30.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Create.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Admin\\Create.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Create.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Admin\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T14:24:42.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Edit.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Admin\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Edit.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Admin\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T14:24:55.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Home\\Privacy.cshtml",
+              "DocumentIndex": 16,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\Repository\\ProductService\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\Repository\\ProductService\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\Repository\\ProductService\\IProductRepository.cs",
+              "RelativeToolTip": "AdminPanelProject\\Services\\Repository\\ProductService\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T14:29:56.545Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:47:02.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 17,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "AdminPanelProject\\Data\\SeedData.cs",
               "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Data\\SeedData.cs",
               "RelativeToolTip": "AdminPanelProject\\Data\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwF8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:45:37.244Z",
+              "WhenOpened": "2025-03-17T10:36:55.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Delete.cshtml",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Views\\Admin\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\Admin\\Delete.cshtml",
-              "RelativeToolTip": "AdminPanelProject\\Views\\Admin\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T14:25:06.127Z",
+              "DocumentIndex": 14,
+              "Title": "AuthorizationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\AuthorizationService\\AuthorizationFilter.cs",
+              "RelativeDocumentMoniker": "AdminPanelProject\\Services\\AuthorizationService\\AuthorizationFilter.cs",
+              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Services\\AuthorizationService\\AuthorizationFilter.cs",
+              "RelativeToolTip": "AdminPanelProject\\Services\\AuthorizationService\\AuthorizationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:42:28.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 18,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "AdminPanelProject\\Views\\_ViewStart.cshtml",
@@ -599,33 +336,7 @@
               "RelativeToolTip": "AdminPanelProject\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T13:49:35.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AdminPanelProject.csproj",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\AdminPanelProject.csproj",
-              "RelativeDocumentMoniker": "AdminPanelProject\\AdminPanelProject.csproj",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\AdminPanelProject.csproj",
-              "RelativeToolTip": "AdminPanelProject\\AdminPanelProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-11T13:38:31.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AdminPanelProject\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\egemen.ertas\\Desktop\\AdminPanelProject\\AdminPanelProject\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "AdminPanelProject\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:37:31.977Z",
+              "WhenOpened": "2025-03-17T10:32:15.679Z",
               "EditorCaption": ""
             }
           ]
