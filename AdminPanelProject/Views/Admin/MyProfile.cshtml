@@ -1,0 +1,57 @@
+﻿@model AdminPanelProject.Models.ProfileViewModel
+
+@{
+    ViewData["Title"] = "Profil Bilgilerim";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">@ViewData["Title"]</h2>
+
+    <div class="row">
+        <!-- Kullanıcı Bilgileri Kartı -->
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h4 class="card-title">Kullanıcı Bilgileri</h4>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="@Model.AvatarUrl" alt="Avatar" class="rounded-circle" width="150" height="150" />
+                        </div>
+                        <div class="col-md-8">
+                            <p><strong>Kullanıcı Adı:</strong> @Model.Username</p>
+                            <p><strong>E-posta:</strong> @Model.Email</p>
+                            <p><strong>Telefon Numarası:</strong> @Model.PhoneNumber</p>
+                            <p><strong>Rol:</strong> @Model.Role</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h4 class="card-title">Ek Bilgiler</h4>
+                    <hr />
+                    <p><strong>Doğum Tarihi:</strong> @Model.DateOfBirth.ToString("dd/MM/yyyy")</p>
+                    <p><strong>Adres:</strong> @Model.Address</p>
+                    <p><strong>Şehir:</strong> @Model.City</p>
+                    <p><strong>Ülke:</strong> @Model.Country</p>
+                    <p><strong>Cinsiyet:</strong> @Model.Gender</p>
+                    <p><strong>Tercih Edilen Dil:</strong> @Model.PreferredLanguage</p>
+                    <p><strong>Son Giriş Tarihi:</strong> @Model.LastLoginDate.ToString("dd/MM/yyyy")</p>
+                    <p><strong>Aktif Mi?:</strong> @Model.IsActive</p>
+                    <p><strong>Bildirim Almak İstiyor Mu?:</strong> @Model.ReceiveNotifications</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success mt-2">
+        @TempData["Message"]
+    </div>
+}

@@ -38,7 +38,20 @@ namespace AdminPanelProject.Controllers
         public async Task<IActionResult> Index()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var username = User.Identity.Name;
+            var username = User.Identity?.Name;
+
+            if (username != null)
+            {
+                // username değişkenini güvenle kullanabilirsiniz
+                // Örneğin: HttpContext.Session.SetString("Username", username);
+            }
+            else
+            {
+                // Kullanıcı giriş yapmamışsa yapılacak işlemler
+                // Örneğin, varsayılan bir değer ayarlayabilirsiniz
+                HttpContext.Session.SetString("Username", "Unknown User");
+            }
+
 
             ViewData["UserId"] = userId;
             ViewData["Username"] = username;
@@ -130,11 +143,6 @@ namespace AdminPanelProject.Controllers
                 return NotFound();
             }
 
-            if (!await _userClaimsService.IsAdminClaim(User.FindFirstValue(ClaimTypes.NameIdentifier)))
-            {
-                return Unauthorized("Bu işlemi gerçekleştirmeye yetkiniz yok.");
-            }
-
             return View(product);
         }
 
@@ -143,10 +151,6 @@ namespace AdminPanelProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (!await _userClaimsService.IsAdminClaim(User.FindFirstValue(ClaimTypes.NameIdentifier)))
-            {
-                return Unauthorized("Bu işlemi gerçekleştirmeye yetkiniz yok.");
-            }
 
             await _productRepository.DeleteProductAsync(id);
             return RedirectToAction(nameof(Index));
@@ -154,58 +158,53 @@ namespace AdminPanelProject.Controllers
 
 
         [ServiceFilter(typeof(AuthorizationFilter))]
-        // Profil Güncelleme (POST)
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> UpdateProfile(UpdateProfileViewModel model)
+        [HttpGet]
+        public async Task<IActionResult> MyProfile()
         {
-            if (ModelState.IsValid)
+            // Giriş yapan kullanıcının ID'sini almak
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            // Kullanıcıyı ID ile bulmak
+            if (string.IsNullOrEmpty(userId))
             {
-                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-                var user = await _userManager.FindByIdAsync(userId);
-
-                if (user == null)
-                {
-                    return NotFound();
-                }
-
-                // Kullanıcı adı ve e-posta güncellenmesi
-                user.UserName = model.Username;
-                user.Email = model.Email;
-                user.PhoneNumber = model.PhoneNumber;
-
-                // Şifre güncelleme işlemi
-                if (!string.IsNullOrEmpty(model.CurrentPassword) && !string.IsNullOrEmpty(model.NewPassword) && model.NewPassword == model.ConfirmPassword)
-                {
-                    var passwordChangeResult = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
-                    if (!passwordChangeResult.Succeeded)
-                    {
-                        foreach (var error in passwordChangeResult.Errors)
-                        {
-                            ModelState.AddModelError(string.Empty, error.Description);
-                        }
-                        return View(model);
-                    }
-                }
-
-                // Veritabanı güncelleme işlemi
-                var updateResult = await _userManager.UpdateAsync(user);
-
-                if (updateResult.Succeeded)
-                {
-                    TempData["Message"] = "Profil güncellendi!";
-                    return RedirectToAction("Index");
-                }
-                else
-                {
-                    foreach (var error in updateResult.Errors)
-                    {
-                        ModelState.AddModelError(string.Empty, error.Description);
-                    }
-                }
+                // userId null veya boş ise hata işlemi yapılabilir
+                // Örneğin, bir hata mesajı gösterebilirsiniz:
+                throw new ArgumentException("User ID cannot be null or empty.");
             }
 
-            return View(model); // Hata varsa, modelle tekrar formu göster
+            // Eğer userId geçerli ise, işlemi gerçekleştirebilirsiniz
+            var user = await _userManager.FindByIdAsync(userId);
+
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            // Kullanıcı rolleri
+            var roles = await _userManager.GetRolesAsync(user);
+
+            // Kullanıcı bilgilerini bir ViewModel'e aktarıyoruz
+            var model = new ProfileViewModel
+            {
+                Username = user.UserName ?? "DefaultUsername",
+                Email = user.Email ?? "DefaultEmail",
+                PhoneNumber = user.PhoneNumber ?? "DefaultPhoneNumber",
+                Role = string.Join(", ", roles),
+                AvatarUrl = user.AvatarUrl,
+                DateOfBirth = user.DateOfBirth,
+                Address = user.Address,
+                City = user.City,
+                Country = user.Country,
+                Gender = user.Gender,
+                PreferredLanguage = user.PreferredLanguage,
+                LastLoginDate = user.LastLoginDate,
+                IsActive = user.IsActive,
+                ReceiveNotifications = user.ReceiveNotifications
+            };
+
+            return View(model);
         }
     }
+
 }

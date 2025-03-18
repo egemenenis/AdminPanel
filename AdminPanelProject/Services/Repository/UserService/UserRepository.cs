@@ -26,10 +26,8 @@ namespace AdminPanelProject.Services.Repository.UserService
 
             return new ProfileViewModel
             {
-                UserName = user.UserName,
                 Email = user.Email,
-                PhoneNumber = user.PhoneNumber,
-                Role = role
+                PhoneNumber = user.PhoneNumber
             };
         }
     }

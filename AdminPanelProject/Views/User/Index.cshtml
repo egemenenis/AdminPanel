@@ -8,26 +8,45 @@
     <link rel="stylesheet" href="~/css/HomeIndex.css" asp-append-version="true" />
 </head>
 
-<h2>@ViewData["Title"]</h2>
 
-<h3>Ürünler</h3>
+<div class="admin-panel-container">
+    <div class="admin-header">
+        <h2>@ViewData["Title"]</h2>
+        <hr />
+        <div class="admin-user-info">
+            <strong>Giriş Yapan Kullanıcı: </strong>@ViewData["Username"]
+            <br /> <strong>ID: </strong> @ViewData["UserId"]
+        </div>
+    </div>
+    <hr />
+    <div class="admin-actions">
 
-<div class="row">
-    @foreach (var item in Model)
-    {
-        <div class="col-md-4">
-            <div class="product-card">
-                <img src="@item.ImagePath" class="card-img-top" alt="Ürün Görseli">
-                <div class="product-card-body">
-                    <h5 class="card-title">@item.Name</h5>
-                    <hr />
-                    <div class="product-description">
-                        <p class="card-text">@item.Description</p>
+        <a href="@Url.Action("MyProfile", "User")" class="btn btn-info">
+            Profil Sayfası
+        </a>
+
+        <form method="post" asp-action="Logout" asp-controller="Account" class="d-inline">
+            <button type="submit" class="btn btn-danger">Çıkış Yap</button>
+        </form>
+    </div>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="@item.ImagePath" class="card-img-top" alt="Ürün Görseli">
+                    <div class="product-card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <hr />
+                        <div class="product-description">
+                            <p class="card-text">@item.Description</p>
+                        </div>
+                        <hr />
+                        <p class="card-text"><strong>Fiyat:</strong> @item.Price TL</p>
                     </div>
-                    <hr />
-                    <p class="card-text"><strong>Fiyat:</strong> @item.Price TL</p>
                 </div>
             </div>
-        </div>
-    }
+        }
+    </div>
 </div>

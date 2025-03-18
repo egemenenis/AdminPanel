@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/egemen.ertas/Desktop/AdminPanelProject/AdminPanelProject/Views/Account/LoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/egemen.ertas/Desktop/AdminPanelProject/AdminPanelProject/Views/Account/LoginResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblJlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,8 +60,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/egemen.ertas/Desktop/AdminPanelProject/AdminPanelProject/Views/Admin/Profiles.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZmlsZXMuY3NodG1s
+[C:/Users/egemen.ertas/Desktop/AdminPanelProject/AdminPanelProject/Views/Admin/MyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTXlQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/egemen.ertas/Desktop/AdminPanelProject/AdminPanelProject/Views/Home/Index.cshtml]
@@ -78,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/egemen.ertas/Desktop/AdminPanelProject/AdminPanelProject/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/egemen.ertas/Desktop/AdminPanelProject/AdminPanelProject/Views/User/MyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeVByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/egemen.ertas/Desktop/AdminPanelProject/AdminPanelProject/Views/User/Privacy.cshtml]

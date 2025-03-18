@@ -234,13 +234,5 @@ C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\compressed\k12jl31kq3-81ayntfzyd.gz
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\compressed\8hzmqitorm-tjxzmn0vym.gz
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\compressed\y29ldab0vc-3o2xvv7njb.gz
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Microsoft.AspNet.Identity.Core.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Microsoft.Owin.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Microsoft.Owin.Security.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Microsoft.Owin.Security.Cookies.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Microsoft.Owin.Security.OAuth.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Newtonsoft.Json.dll
-C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\bin\Debug\net9.0\Owin.dll
+C:\Users\egemen.ertas\Desktop\AdminPanelProject\AdminPanelProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
